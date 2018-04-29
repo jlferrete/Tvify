@@ -78,4 +78,19 @@ body {
 
 .right {
 		float: right;
-}	
+}
+
+#app-body .search-form {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+
+#app-body .search-form input[type="text"] {
+		padding: 12 px 16px;
+		border-radius: 6px;
+		width: 300px;
+}
+	
