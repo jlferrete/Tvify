@@ -6,7 +6,7 @@ $(function() {
 		shows.forEach(function (show) {
 			var article = template
 				.replace(':name:', show.name)
-				.replace(':img:', show.image.medium)
+				.replace(':img:', show.image ? show.image.medium : '')
 				.replace(':summary:', show.summary)
 				.replace(':img alt', show.name + " Logo")
 						
